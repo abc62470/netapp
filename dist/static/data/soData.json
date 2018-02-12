@@ -1,0 +1,95 @@
+{
+	"so":[
+		{
+			"soNo":"NTAP17040280",
+			"contactPerson":"李先生",
+			"address":"广州越秀区中山六路新都会大厦B座203",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"mark_lee@163.com",
+			"machine":"800000114081",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"7082405",
+			"serviceLevel":"2 hour"
+		},
+		{
+			"soNo":"NTAP17060880",
+			"contactPerson":"伍先生",
+			"address":"广州天河区中山大道西158号",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"mark_wu@163.com",
+			"machine":"800000114066",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"6782405",
+			"serviceLevel":"2 hour"
+		},
+		{
+			"soNo":"NTAP17062470",
+			"contactPerson":"李先生",
+			"address":"广州天河区天河东路华康街9号",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"vi_lee@163.com",
+			"machine":"800000114039",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"3382405",
+			"serviceLevel":"3 hour"
+		},
+		{
+			"soNo":"NTAP17042540",
+			"contactPerson":"吴先生",
+			"address":"广州市天河区珠江新城华夏路30号",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"yo_wu@163.com",
+			"machine":"800000114055",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"3286405",
+			"serviceLevel":"2 hour"
+		},
+		{
+			"soNo":"NTAP17041560",
+			"contactPerson":"王先生",
+			"address":"越秀区站西路王圣堂大街149号",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"liv_wang@163.com",
+			"machine":"800000114041",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"7284405",
+			"serviceLevel":"3 hour"
+		},
+		{
+			"soNo":"NTAP18010240",
+			"contactPerson":"李先生",
+			"address":"广州市荔湾区黄沙大道189-201号中山八路",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"me_lee@163.com",
+			"machine":"800000114032",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"2082405",
+			"serviceLevel":"2 hour"
+		},
+		{
+			"soNo":"NTAP18012210",
+			"contactPerson":"王先生",
+			"address":"广东省广州市荔湾区裕福街33号",
+			"customer":"CustomerA",
+			"phone":"13645691235",
+			"email":"ro_wang@163.com",
+			"machine":"800000114031",
+			"modelNo":"FAS6280-R5",
+			"caseNo":"2006846761",
+			"vendorNo":"7182405",
+			"serviceLevel":"4 hour"
+		}
+	]
+}
