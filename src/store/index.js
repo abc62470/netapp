@@ -4,7 +4,10 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
 	state: {
-		soNum: '请选择SO单'
+		id: '请选择SO单',
+		isMaskShow: false,
+		isInfo: false,
+		soData: {}
 	}
 })
 

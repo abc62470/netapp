@@ -13,10 +13,12 @@ Vue.prototype.$http = Axios
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-new Vue({
+var Vuet = new Vue({
   el: '#app',
   router,
   store,
   template: '<App/>',
   components: { App }
 })
+
+console.log(Vuet);

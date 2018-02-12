@@ -4,11 +4,14 @@
 			<img :src="avater" alt="" width="35" height="35">
 		</div>
 		<div class="soNum">
-			{{soNum}}
+			{{soId}}
 		</div>
-		<div class="search">
+		<router-link class="search" to="/Search">
 			<i class="netappIcon icon-search"></i>
-		</div>
+		</router-link>
+		<!-- <div class="search">
+			<i class="netappIcon icon-search"></i>
+		</div> -->
 	</div>
 </template>
 
@@ -17,8 +20,7 @@ export default{
 	data(){
 		return{
 			name: '',
-			avater: '',
-			soNum: ''
+			avater: ''
 		}
 	},
 	props: {
@@ -26,7 +28,12 @@ export default{
 	},
 	created(){
 		this.getUserData();
-		this.getSoNum();
+		// this.getSoNum();
+	},
+	computed:{
+		soId(){
+			return this.$store.state.id;
+		}
 	},
 	methods: {
 		getUserData(){
@@ -40,10 +47,12 @@ export default{
 				console.log(response);
 				console.log('失败');
 			})
-		},
+		}/*,
 		getSoNum(){
-			this.soNum = this.$store.state.soNum;
-		}
+			if(this.$store.state.id){
+				this.soNum = this.$store.state.id;
+			}
+		}*/
 	}
 }
 </script>
@@ -52,6 +61,11 @@ export default{
 .header{
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
 	height: 44px;
 	line-height: 44px;
 	padding: 0 10px;
@@ -81,6 +95,7 @@ export default{
 
 		.icon-search{
 			font-size: 22px;
+			color: #fff;
 		}
 	}
 }

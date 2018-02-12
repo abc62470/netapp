@@ -7,6 +7,7 @@ import ETAOnsite from '@/components/content/eta_onsite.vue';
 import RepairInfo from '@/components/content/repair_info.vue';
 import Complete from '@/components/content/complete.vue';
 import Search from '@/components/header/search.vue';
+import BaiduMap from '@/components/map/map.vue';
 
 Vue.use(Router)
 
@@ -48,6 +49,11 @@ export default new Router({
 			path: '/Search',
 			name: 'Search',
 			component: Search
+		},
+		{
+			path: '/Map',
+			name: 'map',
+			component: BaiduMap
 		}
 	]
 })

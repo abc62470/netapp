@@ -28,9 +28,11 @@
       width: 100%;
       display: flex;
       position: fixed;
+      z-index: 100;
       left: 0;
       bottom: 0;
       height: 49px;
+      background: #fff;
       box-shadow: 0 -1px 3px rgba(26, 124, 175, .17);
 
       .tab-item{
