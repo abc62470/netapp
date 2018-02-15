@@ -131,7 +131,7 @@ export default{
                 setTimeout(() => {
                     console.log(targetPoint);
                     console.log(currentPoint);
-                },1000)
+                },3000)
 
 
 

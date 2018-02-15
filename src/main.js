@@ -10,6 +10,13 @@ import './common/css/index.less'
 
 Vue.prototype.$http = Axios
 
+if (process.env.NODE_ENV === 'development') {
+    Vue.prototype.$http.defaults.baseURL = 'http://localhost:8080/static/data';
+    console.log('development----');
+} else {
+    Vue.prototype.$http.defaults.baseURL = 'https://abc62470.github.io/netapp/static/data';
+}
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

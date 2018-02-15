@@ -49,7 +49,7 @@ export default{
     },
     methods: {
         getListData() {
-            this.$http.get('/api/listData.json')
+            this.$http.get('/listData.json')
             .then(response => {
                 this.listDatas = response.data.list;
             }, response => {
