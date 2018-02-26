@@ -23,7 +23,7 @@
         var storeId = this.$store.state.id;
         var localStorageId = localStorage.id;
         if (storeId != localStorageId && localStorageId != undefined) {
-          this.$http.get('/soData.json').then(response => {
+          this.$http.get(`${this.API_URL}/soData.json`).then(response => {
             let soData = response.data.so.filter(el => el.soNo.includes(localStorageId))[0];
             this.$store.state.id = localStorageId;
             this.$store.state.soData = soData;

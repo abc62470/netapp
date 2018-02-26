@@ -37,7 +37,7 @@ export default{
 	},
 	methods: {
 		getUserData(){
-			this.$http.get('/userData.json')
+			this.$http.get(`${this.API_URL}/userData.json`)
 			.then(response => {
 				console.log(response);
 				console.log('成功');

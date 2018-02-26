@@ -11,10 +11,13 @@ import './common/css/index.less'
 Vue.prototype.$http = Axios
 
 if (process.env.NODE_ENV === 'development') {
-    Vue.prototype.$http.defaults.baseURL = 'http://localhost:8080/static/data';
+    // Vue.prototype.$http.defaults.baseURL = 'http://localhost:8080/static/data';
+    // Vue.prototype.$http.defaults.baseURL = 'http://192.168.0.112:8080/static/data';
+    Vue.prototype.API_URL = '/api';
     console.log('development----');
 } else {
-    Vue.prototype.$http.defaults.baseURL = 'https://abc62470.github.io/netapp/static/data';
+    // Vue.prototype.$http.defaults.baseURL = 'https://abc62470.github.io/netapp/static/data';
+    Vue.prototype.API_URL = 'https://abc62470.github.io/netapp/static/data';
 }
 
 Vue.config.productionTip = false

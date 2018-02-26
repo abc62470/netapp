@@ -114,6 +114,10 @@ export default{
     			padding: 19px 0;
 				border-top: 1px solid #e1e4e6;
 
+				&:first-child{
+					border-top: none;
+				}
+
     			.key{
     				font-size: 16px;
     			}

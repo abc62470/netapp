@@ -11,7 +11,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"7082405",
-			"serviceLevel":"2 hour"
+			"serviceLevel":"2 hour",
+			"appointmentTime":"",
+			"onsiteTime":""
 		},
 		{
 			"soNo":"NTAP17060880",
@@ -24,7 +26,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"6782405",
-			"serviceLevel":"2 hour"
+			"serviceLevel":"2 hour",
+			"appointmentTime":"2018-03-25T03:25",
+			"onsiteTime":""
 		},
 		{
 			"soNo":"NTAP17062470",
@@ -37,7 +41,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"3382405",
-			"serviceLevel":"3 hour"
+			"serviceLevel":"3 hour",
+			"appointmentTime":"2018-03-25T03:25",
+			"onsiteTime":"2018-02-27T09:25"
 		},
 		{
 			"soNo":"NTAP17042540",
@@ -50,7 +56,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"3286405",
-			"serviceLevel":"2 hour"
+			"serviceLevel":"2 hour",
+			"appointmentTime":"",
+			"onsiteTime":""
 		},
 		{
 			"soNo":"NTAP17041560",
@@ -63,7 +71,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"7284405",
-			"serviceLevel":"3 hour"
+			"serviceLevel":"3 hour",
+			"appointmentTime":"",
+			"onsiteTime":""
 		},
 		{
 			"soNo":"NTAP18010240",
@@ -76,7 +86,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"2082405",
-			"serviceLevel":"2 hour"
+			"serviceLevel":"2 hour",
+			"appointmentTime":"",
+			"onsiteTime":""
 		},
 		{
 			"soNo":"NTAP18012210",
@@ -89,7 +101,9 @@
 			"modelNo":"FAS6280-R5",
 			"caseNo":"2006846761",
 			"vendorNo":"7182405",
-			"serviceLevel":"4 hour"
+			"serviceLevel":"4 hour",
+			"appointmentTime":"",
+			"onsiteTime":""
 		}
 	]
 }

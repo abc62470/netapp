@@ -15,7 +15,7 @@
             <div class="address valignCenter">
                 <i class="netappIcon icon-mappin"></i>{{address}}
             </div>
-            <div class="distance">
+            <div class="distance" v-show="distance">
                 <i class="netappIcon icon-cc-location"></i>{{distance}}
             </div>
         </div>
@@ -27,8 +27,8 @@ export default{
     data() {
         return{
             title:'地图',
-            address:' ',
-            distance:' '
+            address:'',
+            distance:''
         }
     },
     computed:{
@@ -200,10 +200,11 @@ export default{
             padding-left: 20px;
 
             .icon-mappin{
-                font-size: 20px;
+                font-size: 21px;
                 position: absolute;
                 left: -3px;
-                top: 1px;
+                top: -2px;
+                color: red;
             }
         }
 
@@ -215,7 +216,8 @@ export default{
                 font-size: 14px;
                 position: absolute;
                 left: 0;
-                top: 3px;
+                top: 2px;
+                color: #0d78f4;
             }
         }
     }
